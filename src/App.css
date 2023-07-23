@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.firstpage{
+  height: 100vh;
+ /*  margin: 0%;
+  padding: 0%; */
+  background-image : url('https://c4.wallpaperflare.com/wallpaper/441/404/940/men-fitness-model-wallpaper-preview.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.left{
+  position: absolute;
+  left: 34px;
+  top: 15px;
+  display: inline-block;
+color: white;
+}
+.center{
+  display: block;
+ 
+  width: 45%;  
+  margin:40px auto;
+  color: black;
+  position: static;
+  font-family: 'Climate Crisis', cursive;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Shantell Sans', cursive;
+}
+.right{
+  position: absolute;
+  right: 34px;
+  top: 55px;
+  display: inline-block;
+  color: white;
+  font-family: 'Climate Crisis', cursive;
+  font-family: 'Oswald', sans-serif;
+   font-family: 'Shantell Sans', cursive;
+}
+.navbar{
+  display:inline-block;
+  position:fixed;
+
+}
+.navbar li{
+  display:inline-block;
+  font-size: 20px;
+}
+.navbar li a {
+  color: black;
+  text-decoration: none;
+  padding: 5px 5px ;
+ text-align: center;
+}
+.navbar li a:hover, .navbar li a.active{
+  text-decoration: underline;
+  color: grey;
+}
+.left img{
+  border-radius: 45%;
+}
+.left div{
+  margin-top: 10px;
+  margin-left: 5px;
+  text-align: center;
+  font-family: 'Climate Crisis', cursive;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Shantell Sans', cursive;
+}
+.rap{
+  margin: 0 9px;
+  background-color: black;
+  color: whitesmoke;
+  border: 2px solid grey;
+  border-radius: 10px;
+  cursor: pointer;
+}
